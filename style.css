@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsla(0, 44%, 81%, 0.452);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    width: 800px;
+    margin: 100px auto 100px auto;
+}
+.aut{
+    height: 300px;
+    width: 500px;
+}
+.omlette{
+    position: relative;
+    height: 350px;
+    width: 700px;
+    margin: 50px auto 40px auto;
+    border-radius: 10px;
+}
+.part1{
+    padding: 20px;
+    margin: 0px auto 10px auto;
+}
+.part1 h1{
+    position: relative;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    font-size: 2.5rem;
+    font-family: "Young Serif";
+    font-weight: 500;
+    color: hsl(24, 5%, 18%);
+}
+.part1 p{
+    margin-left: 15px;
+    margin-bottom: 35px;
+    font-family: "Outfit";
+    color: hsla(32, 10%, 34%, 0.841);
+    font-weight: 500;
+    font-size: 17px;
+}
+.inner1{
+    background-color: hsla(30, 18%, 87%, 0.188);
+    border-radius: 10px;
+    padding: 10px;
+}
+.inner1 h2{
+    font-size: 18px;
+    font-family: "Outfit";
+    font-weight: 700;
+    margin-left: 50px;
+    color: hsl(30, 10%, 34%);
+    padding: 10px;
+}
+.inner1 ul{
+    margin-left: 80px;
+    margin-bottom: 15px;
+}
+.inner1 ul li{
+    padding: 5px;
+    font-family: "Outfit";
+    font-weight: 500;
+    color: hsla(32, 10%, 34%, 0.826);
+}
+.inner1 ul li span{
+    font-weight: 700;
+    color: hsl(30, 10%, 34%);
+}
+.inner2{
+    margin: 30px 0px 0 20px;
+}
+.inner2 h2{
+    font-family: "Young Serif";
+    font-weight: 500;
+    color: hsl(14, 45%, 36%);
+}
+.inner2 ul{
+    margin: 20px 0px 0px 20px ;
+}
+.inner2 ul li{
+    font-family: "Outfit";
+    font-weight: 400;
+    color:hsl(32, 10%, 34%) ;
+    padding: 5px;
+}
+hr{
+    opacity: 75%;
+    width: 90%;
+    align-self: center;
+    color: hsl(32, 10%, 34%);
+}
+.part2{
+    margin: 30px 0 30px 40px;
+    width: 720px;
+}
+.part2 h2{
+    font-family: "Young Serif";
+    font-weight: 500;
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 20px;
+}
+.part2 ol li{
+    font-family: "Outfit";
+    font-weight: 400;
+    color:hsl(32, 10%, 34%) ;
+    padding: 5px;
+    margin-left: 20px;
+}
+.part2 ol li span{
+    font-weight: 700;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit";
+}
+hr{
+    opacity: 75%;
+    width: 90%;
+    margin: 0 auto 0 auto;
+    color: hsl(32, 10%, 34%); 
+}
+.part3{
+    margin: 30px 0 30px 0px;
+}
+.part3 h2{
+    margin-left: 40px;
+    font-family: "Young Serif";
+    font-weight: 500;
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 20px;
+}
+.part3 p{
+    margin-left: 40px;
+    font-family: "Outfit";
+    font-weight: 400;
+    color:hsl(32, 10%, 34%) ;
+    padding: 15px;
+}
+.part3 div{
+    margin-left: 40px;
+    width: 550px;
+    display: flex;
+    justify-content: flex-start;
+}
+.part3 .span{
+    font-weight: 700;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit";
+}
