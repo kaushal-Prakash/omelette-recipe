@@ -10,7 +10,7 @@ body{
     flex-direction: column;
     background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
-    width: 800px;
+    width: 53%;
     margin: 100px auto 100px auto;
 }
 .aut{
